@@ -1,7 +1,7 @@
 <script>
     import { replace } from 'svelte-spa-router';
     import { Jumbotron, Form, FormGroup, Input, Label, Button } from 'sveltestrap';
-    let choices = ['Movie', 'Beer', 'Liquor', 'Food', 'Tv Show', 'Bar', 'Food'];
+    let choices = ['Movie', 'Beer', 'Liquor', 'Food', 'Tv Show', 'Bar', 'Food', 'Company'];
     let randomChoice = '';
     function makeChoice() {
         if (randomChoice) {
